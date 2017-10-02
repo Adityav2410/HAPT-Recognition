@@ -16,8 +16,9 @@ Human activities are monitored with the help of Smartphone sensors(Acclerometer 
 [Smartphone-Based Recognition of Human Activities and Postural Transitions Data Set](https://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions "UCI Machine Learning Repository")
 
 The smartphone sensor data are transformed into two categories:- 
-⋅⋅*  Time Domain Features
-⋅⋅*  Frequency Domain Features
+*  Time Domain Features - Acclearation(x,y,x), min, median, entropy, etc. 
+
+*  Frequency Domain Features - DFT of time domain features(accleration, jerk magnitude, gyroscope magnitude, etc).
 
 
 ### Data Visualization 
