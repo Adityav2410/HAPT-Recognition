@@ -39,7 +39,7 @@ print 'Naive Bayes Accuracy: %.4f' % accuracy
 indx=0
 accuracy = np.zeros(11)
 for i in range(-5,5):
-        print 'Training linear svm...'
+        print 'Training linear svm... for C:{}'.format(2**i)
         lsvm_clf = svm.SVC(C=2**i, kernel='linear')
         lsvm_clf.fit(X_train,Y_train)
         print 'Done!'
@@ -53,6 +53,7 @@ for i in range(-5,5):
         accuracy[indx] = np.sum(pred==Y_val)/float(X_val.shape[0])
         print 'Linear SVM Validation Accuracy for C=%f: %.4f' % (2**i,accuracy[indx])
         indx += 1
+plt.figure()
 plt.plot(accuracy)
 plt.tick_params(labelright = True)
 plt.title('Validation accuracy vs C for linear SVM')
@@ -62,6 +63,7 @@ plt.title('Validation accuracy vs C for linear SVM')
 #### Gaussian Kernel SVM Classifier ####
 # grid search is done for the optimum value of C and gamma
 
+print 'Training Gaussian SVM'
 C_range = np.logspace(-5, 5, 10)
 gamma_range = np.logspace(-5, -5, 10)
 param_grid = dict(gamma=gamma_range, C=C_range)
@@ -105,6 +107,7 @@ for n_components in xrange(10,561,50):
         # print 'Linear SVM Test Accuracy: %.4f' % accuracy[indx]
         indx += 1
 
+plt.figure()
 plt.plot(np.arange(10,561,50),accuracy)
 plt.grid()
 plt.ylabel('Accuracy (%)')
