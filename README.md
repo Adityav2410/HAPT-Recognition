@@ -41,9 +41,9 @@ Several classification techniques are implemented across different parameter var
 
 ### K nearest neighbor
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
+| Number of Neighbors(k)| Training Accuracy(%)| Validation Accuracy(%) | Test Accuracy(%) | 
+| ----------------------|:-------------------:|-----------------------:| ----------------:|
+|          1            |        100          |        95.89           |       86.46      |
+|          3            |        98.58        |        95.58           |       87.70      |
+|          5            |        97.72        |        95.57           |       88.7       |
