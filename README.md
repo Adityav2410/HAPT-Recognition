@@ -59,6 +59,8 @@ Several classification techniques are implemented across different parameter var
 |          5            |        97.72        |        95.57           |       88.7       |
 
 
+<img src="https://github.com/Adityav2410/HAPT-Recognition/blob/master/assets/images/pc_Acc_SVM.png" width=500 align="middle" >
+
 
 ### Boosting
 
