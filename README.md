@@ -4,11 +4,7 @@ Human Activities and Postural Transitions’ Recognition using Smartphone Data
 ## PROBLEM STATEMENT DESCRIPTION
 Human activities are monitored with the help of Smartphone sensors(Acclerometer and Gyroscope). The statement is to classify the human activities into one of 12 classes based on these sensor readings. 
 
-![alt text][humanActivity] 
-
-[humanActivity]: https://github.com/Adityav2410/HAPT-Recognition/blob/master/assets/images/humanActivities.png "HUMAN ACTIVITIES" <!-- .element height="50%" width="50%" -->
-
-
+![alt text](https://github.com/Adityav2410/HAPT-Recognition/blob/master/assets/images/humanActivities.png "HUMAN ACTIVITIES") <!-- .element height="50%" width="50%" -->
 
 
 
