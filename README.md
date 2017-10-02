@@ -8,6 +8,7 @@ Human Activities and Postural Transitions’ Recognition using Smartphone Data
 Data is visualized using 2-D PCA and TSNE embeddings. TSNE visualization shows that the different classes are well seperable. 
 
 ![alt text][logo]
+
 [logo]: https://github.com/Adityav2410/HAPT-Recognition/blob/master/assets/images/dataVisualization.png "PCA vs TSNE"
 
 
