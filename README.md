@@ -34,7 +34,7 @@ Several classification techniques are implemented across different parameter var
 ### Single Layer Neural Network
 
 | Training Accuracy(%)| Validation Accuracy(%) | Test Accuracy(%) | 
-|:-------------------:|-----------------------:| ----------------:|
+|:-------------------:|:----------------------:| ----------------:|
 |        97.55        |        96.2            |       92.13      |
 
 
@@ -42,7 +42,7 @@ Several classification techniques are implemented across different parameter var
 ### Multilayer Neural Network
 
 | Number of hidden units|Training Accuracy(%) | Validation Accuracy(%) | Test Accuracy(%) | 
-| ----------------------|:-------------------:|-----------------------:|:----------------:|
+|:---------------------:|:-------------------:|:----------------------:|:----------------:|
 |          128          |        98.28        |        97.17           |       93.17      |
 |          256          |        99.03        |        97.04           |       93.39      |
 |          512          |        99.51        |        97.94           |       93.48      |
@@ -53,7 +53,7 @@ Several classification techniques are implemented across different parameter var
 
 
 | Kernel   |        Parameters     | Training Accuracy(%)| Validation Accuracy(%) | Test Accuracy(%) | 
-| ---------| ----------------------|:-------------------:|:----------------------:|:----------------:|
+| ---------|:---------------------:|:-------------------:|:----------------------:|:----------------:|
 | Linear   |          C = 1        |        99.53        |        96.98           |       95.19      |
 | Gaussian | C = 5000, gamma = 1e-5|        98.83        |        96.6            |       94.4       |
 
