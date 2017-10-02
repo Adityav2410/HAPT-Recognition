@@ -31,6 +31,12 @@ Data is visualized using 2-D PCA and TSNE embeddings. TSNE visualization shows t
 
 ## EXPERIMENTS
 
+Several classification techniques are implemented across different parameter variation. A detailed study of all the experiment as mentioned below are presented: 
+
+* K nearest neighbor
+* Neural Network(Single and Multilayer perceptron)
+* SVM(Linear and Gaussian Kernel)
+* Boosting(with different loss functions)
 
 
 
