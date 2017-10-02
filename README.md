@@ -33,21 +33,9 @@ Data is visualized using 2-D PCA and TSNE embeddings. TSNE visualization shows t
 
 Several classification techniques are implemented across different parameter variation. A detailed study of all the experiment as mentioned below are presented: 
 
-* K nearest neighbor
 * Neural Network(Single and Multilayer perceptron)
 * SVM(Linear and Gaussian Kernel)
 * Boosting(with different loss functions)
-
-
-### K nearest neighbor
-
-
-| Number of Neighbors(k)| Training Accuracy(%)| Validation Accuracy(%) | Test Accuracy(%) | 
-| ----------------------|:-------------------:|-----------------------:| ----------------:|
-|          1            |        100          |        95.89           |       86.46      |
-|          3            |        98.58        |        95.58           |       87.70      |
-|          5            |        97.72        |        95.57           |       88.7       |
-
 
 ### Single Layer Neural Network
 
