@@ -56,7 +56,6 @@ Several classification techniques are implemented across different parameter var
 | ---------| ----------------------|:-------------------:|-----------------------:| ----------------:|
 | Linear   |          C = 1        |        99.53        |        96.98           |       95.19      |
 | Gaussian | C = 5000, gamma = 1e-5|        98.83        |        96.6            |       94.4       |
-|          5            |        97.72        |        95.57           |       88.7       |
 
 
 <img src="https://github.com/Adityav2410/HAPT-Recognition/blob/master/assets/images/pc_Acc_SVM.png" width=500 align="middle" >
