@@ -66,6 +66,6 @@ Several classification techniques are implemented across different parameter var
 | Loss Function |  Weak learners  | Number of weak learner | Training Accuracy(%)| Validation Accuracy(%)|Test Accuracy(%)| 
 | ------------- | --------------- |:----------------------:|--------------------:| ----------------:|---------------------|
 | Exponential   | Decision Stumps |          339           |        99.97        |        95.6      |       91.68         |   
-| Cross Entropy | Decision Stumps |          303|          |        99.41        |        94.21     |       91.4          |
+| Cross Entropy | Decision Stumps |          303           |        99.41        |        94.21     |       91.4          |
 
 
