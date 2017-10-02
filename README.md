@@ -53,7 +53,7 @@ Several classification techniques are implemented across different parameter var
 
 
 | Kernel   |        Parameters     | Training Accuracy(%)| Validation Accuracy(%) | Test Accuracy(%) | 
-| ---------| ----------------------|:-------------------:|-----------------------:| ----------------:|
+| ---------| ----------------------|:-------------------:|:----------------------:|:----------------:|
 | Linear   |          C = 1        |        99.53        |        96.98           |       95.19      |
 | Gaussian | C = 5000, gamma = 1e-5|        98.83        |        96.6            |       94.4       |
 
@@ -64,7 +64,7 @@ Several classification techniques are implemented across different parameter var
 ### Boosting
 
 | Loss Function |  Weak learners  | Number of weak learner | Training Accuracy(%)| Validation Accuracy(%)|Test Accuracy(%)| 
-| ------------- | --------------- |:----------------------:|--------------------:| ----------------:|---------------------|
+| ------------- | --------------- |:----------------------:|:-------------------:|:---------------------:|:---------------|
 | Exponential   | Decision Stumps |          339           |        99.97        |        95.6      |       91.68         |   
 | Cross Entropy | Decision Stumps |          303           |        99.41        |        94.21     |       91.4          |
 
